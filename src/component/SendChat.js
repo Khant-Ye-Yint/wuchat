@@ -17,8 +17,8 @@ const SendChat = ({ scrollBottom }) => {
 			uid,
 			photoURL,
 		});
-		scrollBottom();
 		chatRef.current.value = '';
+		scrollBottom();
 	};
 
 	return (

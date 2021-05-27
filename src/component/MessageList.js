@@ -14,7 +14,7 @@ const MessageList = ({ setBottomRef }) => {
 	}, [setBottomRef]);
 
 	return (
-		<div className='w-full h-full'>
+		<div className='w-full h-full my-5'>
 			{messages &&
 				messages.map((msg) => <Message key={msg.id} message={msg} />)}
 			<div ref={bottomRef}></div>
